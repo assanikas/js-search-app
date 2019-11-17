@@ -1,6 +1,6 @@
 ### Objective of the project:
 
-Build a simple Search Engine page to apply my knowledge of Algolia's platform to a real life example and overall showcase my technical capabilities.
+Building a simple Search Engine page to apply my knowledge of Algolia's platform to a real life example and overall showcase my technical capabilities.
 
 ### Methodology:
 
