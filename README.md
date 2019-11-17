@@ -28,6 +28,6 @@ The goal of the badge is to drive more conversions on the eCommerce website by u
 
 ![alt text](https://i.ibb.co/4V3Qnh0/Capture-d-cran-2019-11-17-05-12-18.png)
 
-Search keywords are underlined in the results.
+I added an elipsis to make sure that all product names are abbreviated if they're too long.
 
-Descriptions are uneven in the product catalogue .json so I excluded them from the search results for a better layout.
+Descriptions are uneven in the .json product catalogue so I excluded them from the search results for a better layout.
