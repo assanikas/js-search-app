@@ -115,23 +115,24 @@ $(document).ready(function () {
   // ============
 
 
-function badgeProducts() {
-var $html = $(`
-    <div class="sedemo-stockpointer">
-      <div class="sedemo-arrow"></div>
-      <div class="sedemo-msg">Best Seller!</div>
-    </div>
-  `.replace(/>\s+</g, '><').trim())
-  // need to make sure the position of the previous element is relative for ease of use
-  $container = $('.hit-price')
-  $container.css('position', 'relative')
-  if (!document.location.search.match('bestSelling_desc')) {
-  for (var k = 0 ; k < $('.hit-price').length ; k++) { 
-    if( $('.hit-image > img:eq(' + k + ')').attr('class') <= 2000 ) { $('.hit-price:eq(' + k + ')').prepend($html) }
+  function badgeProducts() {
+      var productsToBadge = ''
+      var $html = $(`
+      <div class="productBadge">
+        <div class="productBadgeMessage">Best Seller!</div>
+      </div>
+    `.replace(/>\s+</g, '><').trim())
+      $container = $('.hit-price')
+      $container.css('position', 'relative')
+      if (!document.location.search.match('bestSelling_desc')) {
+          for (var k = 0; k < $('.hit-price').length; k++) {
+              if ($('.hit-image > img:eq(' + k + ')').attr('class') <= 2000) {
+                  productsToBadge += '.hit-price:eq(' + k + ')' + ','
+                  $(productsToBadge.slice(0, -1)).prepend($html)
+              }
+          }
+      }
   }
-}
-  return { remove: () => $('.hit-price').find('.sedemo-stockpointer').remove() }
-}
     $hits.html(hitTemplate.render(content));
     badgeProducts()
   }
