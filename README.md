@@ -1,4 +1,9 @@
-### js-search-app
+### Objective of the project:
+
+Build a simple Search Engine page to apply my knowledge of Algolia's platform to a real life example and overall showcase my technical capabilities.
+
+### Methodology:
+
 I used the Best Buy .json product catalogue.
 
 I used the Instant Search library as a template.
@@ -22,4 +27,3 @@ Badges will only appear when the sorting option selected is not 'Best Seller' as
 Search keywords are underlined in the results.
 
 Descriptions are uneven so I excluded them from the search results.
-
