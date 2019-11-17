@@ -26,4 +26,4 @@ Badges will only appear when the sorting option selected is not 'Best Seller' as
 
 Search keywords are underlined in the results.
 
-Descriptions are uneven so I excluded them from the search results.
+Descriptions are uneven in the product catalogue .json so I excluded them from the search results for a better layout.
