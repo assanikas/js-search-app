@@ -24,7 +24,7 @@ I added a badgeProducts() function to automatically badge Best Sellers (products
 
 Badges will only appear when the sorting option selected is not 'Best Seller' as it would not add value in that case.
 
-The goal of the badge is to drive more conversions on the eCommerce website by using social proof to boost conversion rate:
+The goal of the badge is to drive more conversions on the eCommerce website by using the power of social proof to reassure shoppers during their purchase journey:
 
 ![alt text](https://i.ibb.co/4V3Qnh0/Capture-d-cran-2019-11-17-05-12-18.png)
 
