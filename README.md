@@ -20,13 +20,15 @@ Default sorting is by relevancy.
 
 I personalized the sorting / ranking options to include 'Most relevant, Best Sellers, Prices Asc and Prices Desc. To do this I used replicas of my main index.
 
+Search keywords are underlined in the results.
+
 I added a badgeProducts() function to automatically badge Best Sellers (products that have a BestSellingRank below 2000).
 
 Badges will only appear when the sorting option selected is not 'Best Seller' as it would not add value in that case.
 
 The goal of the badge is to drive more conversions on the eCommerce website by using the power of social proof to reassure shoppers during their purchase journey:
 
-![alt text](https://i.ibb.co/4V3Qnh0/Capture-d-cran-2019-11-17-05-12-18.png)
+![alt text](https://i.ibb.co/Xx16VfJ/Capture-d-e-cran-2019-11-17-a-22-01-36.png)
 
 I added an elipsis to make sure that all product names are abbreviated if they're too long.
 
