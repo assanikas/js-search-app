@@ -99,6 +99,7 @@ header img {
 .hit-image {
 	display: inline-block;
 	width: 16%;
+	text-align: center;
 }
 .hit-image img {
     max-width: 100%;
@@ -120,16 +121,18 @@ header img {
 }
 .hit-content .hit-price, .hit-content .hit-name {
 	font-weight: normal;
-	font-size: 18px;
+	font-size: 16px;
 	margin-top: 0;
 	color: #5d6494;
 
 }
 
 .hit-name {
-    white-space: nowrap;
+	line-height: 30px;
+    /* white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis;	
+    text-overflow: ellipsis;
+    */	
 }
 
 .hit-content em {
@@ -593,42 +596,30 @@ footer a:hover {
 /* BADGES
 // ----------------------------*/
 
-
-      /* Breakpoints */
-      @breakpoint: 767px;
-
-      /*endbotconfig*/
-
-
-.sedemo-stockpointer {
+.productBadge {
 
   position: absolute;
-  top: 33px;
-  left: -560px;
-  width: 100px;
+  top: 40px;
+  left: -669px;
+  width: 80px;
   height: auto;
   text-align: center;
-  font-size: 14px !important;
-  background-color: #5468ff !important;
+  font-size: 11px !important;
+  background-color: #939ffd !important;
   color: #FFF !important;
+  border-radius: 5px;
+  /*border-style: solid;
+  border-width: 6px;
+  border-right-width: 1000px;
+  border-color:	#FFF;*/
   border-radius: 5px;
   z-index: 1000000;
 
 
-  .sedemo-msg {
+  .productBadgeMessage {
     font-weight: 700;
     padding: 0px 15px;
     line-height: 25px;
     margin: 0px;
-  }
-
-  /*
-    Use for a responsive design
-  */
-  @media screen and (max-width: @breakpoint) {
-
-    left: -50px;
-    width: 300px;
-    top: 60px;
   }
 }
