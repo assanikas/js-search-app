@@ -24,6 +24,10 @@ I added a badgeProducts() function to automatically badge Best Sellers (products
 
 Badges will only appear when the sorting option selected is not 'Best Seller' as it would not add value in that case.
 
+The goal of the badge is to drive more conversions on the eCommerce website by using social proof to boost conversion rate:
+
+![alt text](https://i.ibb.co/4V3Qnh0/Capture-d-cran-2019-11-17-05-12-18.png)
+
 Search keywords are underlined in the results.
 
 Descriptions are uneven in the product catalogue .json so I excluded them from the search results for a better layout.
